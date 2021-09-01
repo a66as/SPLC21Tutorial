@@ -11,7 +11,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
         names(x) <- sheets
         x
 }
-#the path to working directory, ideally should place the data file there
+#the path to working directory, ideally you should keep CPDataJPSPLC.xlsx there
 setwd("/Users/a66as/Desktop/SPLC21/")
 data <- read_excel_allsheets("CPDataJPSPLC.xlsx") # all the sheets
 #1TFWith
