@@ -13,7 +13,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
 }
 #the path to working directory, ideally should place the data file there
 setwd("/Users/a66as/Desktop/SPLC21/")
-data <- read_excel_allsheets("CPDataJP.xlsx") # all the sheets
+data <- read_excel_allsheets("CPDataJPSPLC.xlsx") # all the sheets
 #1TFWith
 data$TFSnotRemoved$sim->reqSim
 data$TFSnotRemoved$JPLag->softSim
